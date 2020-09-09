@@ -1,0 +1,90 @@
+(ExpressProject "keyboard"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2019 S006 (3859078) [4/21/2020]-[09/08/20]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\keyboard.olb"
+        (Type "Schematic Library")
+        (DisplayName ".\sch\keyboard.olb")))
+    ("Allegro Netlist Directory" "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\keyboard.DSN"
+      (Type "Schematic Design")
+      (DisplayName ".\keyboard.DSN"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Board_sim_option "VHDL_flow"))
+  (Folder "Layout")
+  (Folder "Outputs")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (Folder "Logs")
+  (PartMRUSelector
+    (USBC-16P
+      (FullPartName "USBC-16P.Normal")
+      (LibraryName "C:\USERS\NEO\WORKSPACE\CADENCE\SCH\KEYBOARD.OLB")
+      (DeviceIndex "0"))
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\KEYBOARD.OLB")
+      (DeviceIndex "0"))
+    (SW
+      (FullPartName "SW.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\KEYBOARD.OLB")
+      (DeviceIndex "0"))
+    (D
+      (FullPartName "D.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\KEYBOARD.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\KEYBOARD.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\KEYBOARD.OLB")
+      (DeviceIndex "0"))
+    ("CONN SOCKET 20x2"
+      (FullPartName "CONN SOCKET 20x2.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0")))
+  (MPSSessionName "neo")
+  (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_17.4\tools\capture\library")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Users\neo\workspace\cadence\sch\keyboard.DSN")
+      (Path "Design Resources"
+         "C:\Users\neo\workspace\cadence\sch\keyboard.DSN" "SCHEMATIC1")
+      (Path "Design Resources"
+         "C:\Users\neo\workspace\cadence\sch\keyboard.DSN" "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "C:\Users\neo\workspace\cadence\sch\keyboard.olb")
+      (Select "Design Resources"
+         "C:\Users\neo\workspace\cadence\sch\keyboard.DSN" "Design Cache"
+         "USBC-16P"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 382 0 725"))
+      (Tab 0))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 971 24 743"))
+      (Path "C:\USERS\NEO\WORKSPACE\CADENCE\SCH\KEYBOARD.OLB")
+      (Package "USBC-16P")
+      (PartType "1"))))
