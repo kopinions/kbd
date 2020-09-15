@@ -1,2 +1,5 @@
 *.OBK
 *.DBK
+*.log
+*.log,*
+*.jrl
