@@ -3,3 +3,6 @@
 *.log
 *.log,*
 *.jrl
+*.html
+*.jrl,*
+*.tag
